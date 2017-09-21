@@ -17,9 +17,8 @@ CoreJsPlugin.prototype.apply = function CoreJsPluginApply (compiler) {
               var src = new ConcatSource('/* core-js */\n', bundledCode, compilation.assets[file]);
               compilation.assets[file] = src
             });
-            
-
-          });// end then
+          }) // end then
+          .catch(function() {});
       });// end for each
       callback();
     });// end optimize-chunk-assets
