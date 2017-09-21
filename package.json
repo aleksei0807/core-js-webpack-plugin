@@ -1,12 +1,16 @@
 {
-  "name": "core-js-webpack-plugin",
-  "version": "1.0.3",
-  "description": "core-js builder as a Webpack Plugin",
+  "name": "core-js-webpack3-plugin",
+  "version": "1.0.4",
+  "description": "core-js builder as a Webpack 3 Plugin",
   "main": "index.js",
-  "author": "PatrickJS <patrick@angularclass.com>",
+  "authors": [
+    "PatrickJS <patrick@angularclass.com>",
+    "Aleksei Schurak <a@guava.by>"
+  ],
   "license": "Apache-2.0",
   "keywords": [
     "webpack",
+    "webpack 3",
     "plugin",
     "core-js",
     "corejs",
